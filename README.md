@@ -5,8 +5,9 @@ git clone https://github.com/JASUR2007/projectK.git
 composer install
 cp .env.example .env
 Then create the necessary database.
-
+```markdown
 php artisan db
+```
 create database kid
 And run the initial migrations and seeders.
 
