@@ -1,3 +1,45 @@
+## Installation
+First clone this repository, install the dependencies, and setup your .env file.
+
+git clone https://github.com/JASUR2007/projectK.git
+```markdown
+composer install
+cp .env.example .env
+```
+Then create the necessary database.
+```markdown
+php artisan db
+```
+```markdown
+create database kid
+```
+And run the initial migrations and seeders.
+
+
+
+## Main page with currency
+![image](https://github.com/JASUR2007/projectK/assets/62153427/d3feed4b-98f0-4154-be78-b3317a2a4cf8)
+![image](https://github.com/JASUR2007/projectK/assets/62153427/635dd341-eb70-4cff-b0b9-3005dfd7dff8)
+![image](https://github.com/JASUR2007/projectK/assets/62153427/f2d06de5-b540-4c44-8ec0-97857b0411ca)
+## Phone version
+![image](https://github.com/JASUR2007/projectK/assets/62153427/4fbd6df6-853a-4d60-89cc-faf41cc83261)
+
+## Searching
+![image](https://github.com/JASUR2007/projectK/assets/62153427/d97bdd65-7c0b-4eb1-9940-756677d47097)
+![image](https://github.com/JASUR2007/projectK/assets/62153427/ab08a6fe-414a-412c-a582-cb5eda93ef39)
+## Panel
+![image](https://github.com/JASUR2007/projectK/assets/62153427/023ead82-db38-4bd2-87ba-46e24961cb0d)
+## Products
+![image](https://github.com/JASUR2007/projectK/assets/62153427/aec0229e-7b61-4d50-9af2-b02ac66b4f37)
+## Editing
+![image](https://github.com/JASUR2007/projectK/assets/62153427/6f69e3c7-70c5-4e48-8b95-0ff8fca2fba4)
+## Banners
+![image](https://github.com/JASUR2007/projectK/assets/62153427/813ac714-0b09-489b-9ecb-08538c8438c6)
+## Profile
+![image](https://github.com/JASUR2007/projectK/assets/62153427/57b1be77-68fe-4261-947c-7bf86078cf58)
+## Phone version
+![image](https://github.com/JASUR2007/projectK/assets/62153427/0b2f5f0d-edfd-4671-a953-deda3a15c22a)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -27,38 +69,4 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
