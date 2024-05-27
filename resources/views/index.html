@@ -1,0 +1,365 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.drop_screen {
+ width: 100%;
+ background-color: #EEE;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 30px;
+    }
+.drop_screen .menu-btn span {
+ width: 32px;
+}
+.shown {
+    width: 100%;
+    height: 43vh;
+    background-color: #444;	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    position: fixed;
+    top: 13%;
+    left: 0;
+    padding-left: 14px;
+}
+.shown a {
+ color: #FFF;
+ text-decoration: none;
+ font-size: 20px;
+ margin-bottom: 32px;
+ text-transform: uppercase;
+ font-weight: 900;
+ position: relative;
+}
+.shown a:hover::after {
+ content: '';
+ height: 2px;
+ width: 50%;
+ background-color: #FFF;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+}
+.shown #close-nav_nav {
+ position: fixed;
+ right: 0;
+ top: 0;
+ padding: 10px 30px;
+ cursor: pointer;
+ font-size: 32px;
+}
+.shown #close-nav_nav:hover::after {
+ content: none;
+}
+.shown #close-nav_nav:hover {
+ background-color: #EEE !important;
+ color: #444 !important;
+}
+.hide_1 {
+ visibility: hidden;
+}
+
+    </style>
+</head>
+<body>
+    <div class="drop_screen">
+        <a href="#" class="menu-btn" id="open-nav">
+            <span>1</span>
+        </a>
+        </div>
+        <nav class="shown hide_1">
+        <a id="close-nav_nav">X</a>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+        </nav>
+    <script>
+const openNavButton = document.querySelector("#open-nav");
+const closeNavButton = document.querySelector("#close-nav_nav");
+const nav = document.querySelector(".shown");
+openNavButton.addEventListener("click", function () {
+ nav.classList.toggle("hide_1");
+});
+closeNavButton.addEventListener("click", function () {
+ nav.classList.toggle("hide_1");
+});
+
+    </script>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&amp;display=swap">
+    <title>Document</title>
+    <style>
+:root {
+	 font-size: 62.5%;
+}
+ * {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+	 text-size-adjust: none;
+	 -webkit-text-size-adjust: none;
+}
+ button:hover {
+	 cursor: pointer;
+}
+ body {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 background-color: #eae6e5;
+	 background-color: #2b303a;
+	 height: 100vh;
+}
+ @media screen and (max-width: 50em) {
+	 body {
+		 flex-direction: column;
+		 height: 100%;
+	}
+}
+ body .heading {
+	 margin: 3rem 0 5rem 0;
+}
+ body .title, body .sub-title {
+	 font-size: 4rem;
+	 text-align: center;
+	 font-family: "Poppins", sans-serif;
+	 color: #12130f;
+	 color: #eee5e9;
+}
+ body .sub-title {
+	 font-size: 1.5rem;
+	 color: #eee5e9;
+	 opacity: 0.5;
+}
+ body .user-input-section {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 width: 40%;
+}
+ @media screen and (max-width: 50em) {
+	 body .user-input-section {
+		 width: 100%;
+		 margin: 2rem 0 0 0;
+	}
+}
+ body .user-input-section .user-input {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 width: 100%;
+}
+ body .user-input-section .user-input label {
+	 text-align: center;
+	 font-size: 1.5rem;
+	 font-family: "Poppins", sans-serif;
+}
+ body .user-input-section .user-input input {
+	 width: 80%;
+	 max-width: 35rem;
+	 font-family: "Poppins", sans-serif;
+	 outline: none;
+	 border: none;
+	 border-radius: 0.5rem;
+	 background-color: #9b8774 ad;
+	 background-color: #7c7c7c;
+	 text-align: center;
+	 padding: 1.5rem 1rem;
+	 margin: 1rem 1rem 2rem 1rem;
+	 color: black;
+}
+ body .user-input-section .user-input input::placeholder {
+	 color: #eee5e9;
+	 color: #2b303a;
+}
+ body .button {
+	 outline: none;
+	 border: none;
+	 border-radius: 0.5rem;
+	 padding: 1.5rem 2.5rem;
+	 margin-bottom: 3rem;
+	 background-color: #5b9279 9d;
+	 background-color: #92dce5;
+	 color: black;
+	 font-family: "Nunito", sans-serif;
+	 font-size: 1.6rem;
+}
+ body .button i {
+	 margin-left: 1rem;
+}
+ body .qr-code-container {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 width: 40%;
+}
+ @media screen and (max-width: 50em) {
+	 body .qr-code-container {
+		 width: 100%;
+		 margin: 8rem 0;
+	}
+}
+ body .qr-code-container .qr-code {
+	 display: flex;
+	 border-radius: 1rem;
+	 background-color: #7c7c7c 33;
+	 width: fit-content;
+	 flex-direction: column;
+	 justify-content: space-between;
+	 padding: 2rem;
+}
+ body .qr-code-container .qr-code button {
+	 display: flex;
+	 justify-content: center;
+	 background-color: #1f1f1f;
+	 color: #eae6e5;
+	 border: none;
+	 outline: none;
+	 width: 100%;
+	 margin-top: 2.5rem;
+	 border-radius: 1rem;
+}
+ body .qr-code-container .qr-code button a {
+	 font-family: "Poppins", sans-serif;
+	 font-size: 1.5rem;
+	 width: 100%;
+	 height: 100%;
+	 text-decoration: none;
+	 color: #eae6e5;
+	 padding: 1rem;
+}
+ body .qr-code-container .qr-code button a i {
+	 margin-left: 0.5rem;
+}
+ 
+    </style>
+</head>
+<body>
+    <div class="user-input-section">
+        <section class="heading">
+          <div class="title">QRcodes</div>
+          <div class="sub-title">Generate QRCode for anything!</div>
+        </section>
+        <section class="user-input">
+          <input type="text" placeholder="Type something..." name="input_text" id="input_text" autocomplete="off">
+          <button class="button" type="submit">Generate<i class="fa-solid fa-rotate"></i></button>
+        </section>
+      </div>
+      <div class="qr-code-container">
+        <div class="qr-code" style></div>
+      </div>
+<script>
+let btn = document.querySelector(".button");
+let qr_code_element = document.querySelector(".qr-code");
+
+btn.addEventListener("click", () => {
+  let user_input = document.querySelector("#input_text");
+  if (user_input.value != "") {
+    if (qr_code_element.childElementCount == 0) {
+      generate(user_input);
+    } else {
+      qr_code_element.innerHTML = "";
+      generate(user_input);
+    }
+  } else {
+    console.log("not valid input");
+    qr_code_element.style = "display: none";
+  }
+});
+
+function generate(user_input) {
+  qr_code_element.style = "";
+
+  var qrcode = new QRCode(qr_code_element, {
+    text: `${user_input.value}`,
+    width: 180, //128
+    height: 180,
+    colorDark: "#000000",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.H
+  });
+
+  let download = document.createElement("button");
+  qr_code_element.appendChild(download);
+
+  let download_link = document.createElement("a");
+  download_link.setAttribute("download", "qr_code.png");
+  download_link.innerHTML = `Download <i class="fa-solid fa-download"></i>`;
+
+  download.appendChild(download_link);
+
+  let qr_code_img = document.querySelector(".qr-code img");
+  let qr_code_canvas = document.querySelector("canvas");
+
+  if (qr_code_img.getAttribute("src") == null) {
+    setTimeout(() => {
+      download_link.setAttribute("href", `${qr_code_canvas.toDataURL()}`);
+    }, 300);
+  } else {
+    setTimeout(() => {
+      download_link.setAttribute("href", `${qr_code_img.getAttribute("src")}`);
+    }, 300);
+  }
+}
+
+generate({
+  value: "https://murtuzaalisurti.github.io/qr"
+});
+</script>    
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<button href="" >324</button>
+	<div>d2</div>
+	<!-- <script>
+		setInterval(function() {
+	console.log('text');
+}, 1000);
+		var a = console.log('ew')
+		setInterval(a, 400);
+	</script> -->
+	<script>
+var bttn = document.getElementById("bttnClick");
+function click() {
+	console.log(21)
+bttn.click();
+};
+setInterval("click()", 1000);
+
+	</script>
+</body>
+</html>

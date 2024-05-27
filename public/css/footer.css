@@ -1,0 +1,45 @@
+  footer ul{
+    margin-top: 8.5px;
+    line-height: 20.5px;
+  }
+  footer .row{
+    margin-right: -15px;
+    margin-top: 8px;
+    margin-left: -15px;
+  }
+  footer .container{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: #303030;
+    border-top: 1px solid #ddd;
+    color: #e2e2e2;
+    height: 195px;
+  }
+  footer h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+  }
+  footer a {
+    font-size: 12px;
+    color: #ccc;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+footer hr{
+    border-top: none;
+    border-bottom: 0.1px solid #666;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    margin-bottom: 5px;
+}

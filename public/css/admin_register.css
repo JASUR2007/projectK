@@ -1,0 +1,111 @@
+/* reg */
+.controller{
+    display: block;
+      width: 100%;
+      height: 36px;
+      padding: 8px 13px;
+      font-size: 13px;
+      line-height: 1.428571429;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+      box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+      -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+      -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+      transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  
+  
+  }
+  /* .controller:focus{
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
+    -webkit-box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+  } */
+  .controller.activate{
+    border:1px solid  red;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px red;
+  }
+  /* .controller.activate:focus{
+    border-color: #d0321e;
+    border: 1px solid red;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px #f0a197;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px #f0a197;
+  } */
+  .controller:focus.activate{
+    border-color: #d0321e;
+    border: 1px solid red;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px red;
+  }
+  .controller:focus.active{
+    border-color: #d0321e;
+    border: 1px solid red;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px red;
+  }
+  
+  
+  .controller_3{
+    display: block;
+      width: 100%;
+      height: 36px;
+      padding: 8px 13px;
+      font-size: 13px;
+      line-height: 1.428571429;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+      box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+      -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+      -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+      transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  
+  
+  }
+  /* .controller:focus{
+    border: 1px solid #b9b9b9;
+    border-top-color: #a0a0a0;
+    -webkit-box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+  } */
+  .controller_3.activate{
+    border:1px solid  red;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px red;
+  }
+  /* .controller.activate:focus{
+    border-color: #d0321e;
+    border: 1px solid red;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px #f0a197;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px #f0a197;
+  } */
+  .controller_3:focus.activate{
+    border-color: #d0321e;
+    border: 1px solid red;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px red;
+  }
+  .controller_3:focus.active{
+    border-color: #d0321e;
+    border: 1px solid red;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 6px red;
+  }
+  
+  
+  
+  .saved{
+    display: none;
+  }
+  .saved.activate{
+    display: block;
+  }
+  .controller_1{
+    display: none;
+  }
+  .controller_1.activate{
+  display: block;
+  color: red;
+  }

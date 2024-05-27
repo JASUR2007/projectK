@@ -1,0 +1,3 @@
+table:not(.horizontal) {
+    max-height: 1000px;
+}

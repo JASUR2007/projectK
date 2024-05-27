@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/26d42b736c.js" crossorigin="anonymous"></script>
+
+  <title>Document</title>
+  <style>
+    .ksagamin-gindugun .kedsaainu-menestab{
+padding:0em;
+margin:0em}
+
+.ksagamin-gindugun input[type=file]{
+outline:0;
+opacity:0;
+pointer-events:none;
+user-select:none}
+
+.ksagamin-gindugun .daainumplemen{
+width:100px;
+border:2px dashed grey;
+border-radius:5px;
+display:block;
+padding:0em;
+transition:border 300ms ease;
+cursor:pointer;
+text-align:center;}
+
+.ksagamin-gindugun .daainumplemen i{
+display:block;
+font-size:42px;
+padding-bottom:0px;}
+
+.ksagamin-gindugun .daainumplemen i,.ksagamin-gindugun .daainumplemen .nesakopab{
+color:grey;
+transition:200ms color;}
+
+.ksagamin-gindugun .daainumplemen:hover{
+border:2px solid #1b1b1b;}
+
+.ksagamin-gindugun .daainumplemen:hover i,.ksagamin-gindugun .daainumplemen:hover .nesakopab{
+color:#1b1b1b;}
+  </style>
+</head>
+<body>
+  <i class="fa-sharp fa-solid fa-plus"></i>
+  <div class="ksagamin-gindugun">
+    <label class="daainumplemen">
+       <i class="fa-regular fa-plus"></i>
+       <div>
+       </div>
+    <input type="file">
+    </label>
+  </div>
+  <object data="" type="">324</object>
+  <colgroup>qe
+</colgroup>
+</body>
+</html> -->
+<form name="selectForm">
+  <p>
+    <label for="musicTypes">Выберите некоторые жанры музыки, а затем нажмите на кнопку ниже:</label>
+    <select id="musicTypes" name="musicTypes" multiple="multiple">
+      <option selected="selected">R&B</option>
+      <option>Jazz</option>
+      <option>Blues</option>
+      <option>New Age</option>
+      <option>Classical</option>
+      <option>Opera</option>
+    </select>
+  </p>
+  <p><input id="btn" type="button" value="Как много выбрано?" /></p>
+</form>
+
+<script>
+function howMany(selectObject) {
+  var numberSelected = 0;
+  for (var i = 0; i < selectObject.options.length; i++) {
+    if (selectObject.options[i].selected) {
+      numberSelected++;
+    }
+  }
+  return numberSelected;
+}
+
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function(){
+  alert('Выбрано элементов: ' + howMany(document.selectForm.musicTypes))
+});
+</script>
