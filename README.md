@@ -2,13 +2,17 @@
 First clone this repository, install the dependencies, and setup your .env file.
 
 git clone https://github.com/JASUR2007/projectK.git
+```markdown
 composer install
 cp .env.example .env
+```
 Then create the necessary database.
 ```markdown
 php artisan db
 ```
+```markdown
 create database kid
+```
 And run the initial migrations and seeders.
 
 
