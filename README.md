@@ -2,7 +2,7 @@
 ![image](https://github.com/JASUR2007/projectK/assets/62153427/d3feed4b-98f0-4154-be78-b3317a2a4cf8)
 ![image](https://github.com/JASUR2007/projectK/assets/62153427/635dd341-eb70-4cff-b0b9-3005dfd7dff8)
 ![image](https://github.com/JASUR2007/projectK/assets/62153427/f2d06de5-b540-4c44-8ec0-97857b0411ca)
-##Phone version
+## Phone version
 ![image](https://github.com/JASUR2007/projectK/assets/62153427/4fbd6df6-853a-4d60-89cc-faf41cc83261)
 
 ## Searching
