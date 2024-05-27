@@ -1,7 +1,7 @@
 ## Installation
 First clone this repository, install the dependencies, and setup your .env file.
 
-git clone [git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog](https://github.com/JASUR2007/projectK.git)
+git clone https://github.com/JASUR2007/projectK.git
 composer install
 cp .env.example .env
 Then create the necessary database.
