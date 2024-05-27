@@ -1,7 +1,7 @@
 ## Installation
 First clone this repository, install the dependencies, and setup your .env file.
 
-git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
+git clone [git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog](https://github.com/JASUR2007/projectK.git)
 composer install
 cp .env.example .env
 Then create the necessary database.
@@ -11,6 +11,21 @@ create database blog
 And run the initial migrations and seeders.
 
 php artisan migrate --seed
+# Мой проект
+
+Описание проекта.
+
+## Использование
+
+Чтобы добавить этот пакет в ваш проект, скопируйте и вставьте следующий код в ваш `composer.json`:
+
+```json
+{
+  "require": {
+    "vendor/package": "^1.0"
+  }
+}
+
 
 ## Main page with currency
 ![image](https://github.com/JASUR2007/projectK/assets/62153427/d3feed4b-98f0-4154-be78-b3317a2a4cf8)
