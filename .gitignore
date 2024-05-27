@@ -13,7 +13,9 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-/resources/views/admin
+/resources/views/header_panel.blade.php
+/resources/views/sidebar_work.blade.php
+/resources/views/admin_footer.blade.php
 /public/js/adm-classification.js
 /public/js/adm-earning.js
 /public/js/adm-letter.js

@@ -85,8 +85,8 @@
             <h4></h4>
         </div>
     </div>
+    @include('footer-site')
 </div>
-@include('footer-site')
 @include('vue')
 </body>
 </html>

@@ -109,8 +109,8 @@
             </div>
         </div>
     </div>
+    @include('footer-site')
 </div>
-@include('footer-site')
 @include('vue')
 </body>
 </html>

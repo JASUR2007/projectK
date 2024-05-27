@@ -14,7 +14,8 @@
                local:'',
                num:2
             },
-            mounted(){      
+            mounted(){
+
             this.local = localStorage.getItem('currency')
             this.level =  localStorage.getItem('level');
             fetch(this.vallet)
@@ -55,7 +56,7 @@
                   .then(add => add.json())
                   .then(res => {
                       if (res.status == "ok") {
-                            window.location.href = 'http://kam/api/kid/search';                  
+                            window.location.href = this.domain_url + 'api/kid/search';                  
                           }
 
                           console.log(res)
