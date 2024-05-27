@@ -1,3 +1,17 @@
+## Installation
+First clone this repository, install the dependencies, and setup your .env file.
+
+git clone git@github.com:JeffreyWay/Laravel-From-Scratch-Blog-Project.git blog
+composer install
+cp .env.example .env
+Then create the necessary database.
+
+php artisan db
+create database blog
+And run the initial migrations and seeders.
+
+php artisan migrate --seed
+
 ## Main page with currency
 ![image](https://github.com/JASUR2007/projectK/assets/62153427/d3feed4b-98f0-4154-be78-b3317a2a4cf8)
 ![image](https://github.com/JASUR2007/projectK/assets/62153427/635dd341-eb70-4cff-b0b9-3005dfd7dff8)
