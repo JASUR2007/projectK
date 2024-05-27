@@ -7,24 +7,9 @@ cp .env.example .env
 Then create the necessary database.
 
 php artisan db
-create database blog
+create database kid
 And run the initial migrations and seeders.
 
-php artisan migrate --seed
-# Мой проект
-
-Описание проекта.
-
-## Использование
-
-Чтобы добавить этот пакет в ваш проект, скопируйте и вставьте следующий код в ваш `composer.json`:
-
-```json
-{
-  "require": {
-    "vendor/package": "^1.0"
-  }
-}
 
 
 ## Main page with currency
